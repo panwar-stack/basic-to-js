@@ -1,0 +1,14 @@
+{
+  "name": "basic-js-compiler",
+  "private": true,
+  "version": "0.1.0",
+  "bin": {
+    "basicjs": "src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,13 @@
+10 A = "TEXT"
+20 A$ = 1
+30 A$ = "A" + 1
+40 A = 1 + "A"
+50 A = ABS("X")
+60 B = INT("X")
+70 C = LEN(1)
+80 D$ = LEFT$(1, 2)
+90 E$ = RIGHT$("HELLO", "2")
+100 F$ = MID$("HELLO", 2)
+110 G$ = STR$("123")
+120 H = VAL(123)
+130 I = RND(1)

@@ -1,0 +1,10 @@
+10 A = ABS(-1)
+20 B = INT(1.9)
+30 C = LEN("HELLO")
+40 D$ = LEFT$("HELLO", 2)
+50 E$ = RIGHT$("HELLO", 3)
+60 F$ = MID$("HELLO", 2, 3)
+70 G$ = STR$(123)
+80 H = VAL("123")
+90 I = RND()
+100 PRINT A, B, C, D$, E$, F$, G$, H, I
