@@ -1,5 +1,7 @@
 # BASIC To JavaScript Compiler
 
+> **Created by opencode:** This entire project was created by opencode, using a personal fork(https://github.com/panwar-stack/opencode) with 1 agent team and 64 autonomous DAG agents.
+
 This project is a small BASIC-to-JavaScript compiler implemented in plain JavaScript for Node.js. It reads one `.bas` source file, compiles a deterministic line-label BASIC subset inspired by GW-BASIC and QuickBASIC, and emits readable self-contained JavaScript that runs directly with Node.js.
 
 ## CLI Usage
