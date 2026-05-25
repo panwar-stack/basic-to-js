@@ -110,6 +110,21 @@ The CLI also does not include watch mode, multi-file compilation, source maps, p
 40 END
 ```
 
+The `examples/suite/` directory contains a broader compiler-check suite that exercises the supported BASIC subset, including printing, comments, colon-separated statements, numeric and string expressions, built-ins, `IF`, `GOTO`, `GOSUB`, `FOR/NEXT`, arrays, `INPUT`, `STOP`, selected runtime errors, and larger programs that combine several features in one flow.
+
+Run the automated examples checks with the full test suite:
+
+```sh
+npm test
+```
+
+Compile any suite example manually:
+
+```sh
+node src/cli.js compile examples/suite/12-arrays.bas --out dist/12-arrays.js
+node dist/12-arrays.js
+```
+
 ## Tests
 
 Run the full test suite:
